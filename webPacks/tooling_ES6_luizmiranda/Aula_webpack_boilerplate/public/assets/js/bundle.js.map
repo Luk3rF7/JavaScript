@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":"AAGAA,QAAQC,IAAI","sources":["webpack://aula_webpack_boilerplate/./src/index.js"],"sourcesContent":["//linha\r\n//linha2\r\n//linha3\r\nconsole.log('Eiiiiiiiiii')\r\n"],"names":["console","log"],"sourceRoot":""}
