@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio - JavaScript</title>
+    <style>
+        body{
+            background-color: burlywood;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            display: flex;
+            justify-content: center;
+            background-color: sienna;
+            border-bottom: 2px solid black;
+        }
+        .titulo{
+            width: 50%;
+            border:solid 1px black;
+            border-radius: 10px;
+            box-shadow: 1px 3px 0 0 lightgray; 
+            text-align: center;
+            background-color:burlywood;
+        }
+        .myform p{
+            width: 80%;
+            height: 60%;
+            margin-left: 300px;
+            font-family: monospace;
+            font-weight: 400;
+            font-size: 25px;
+        }
+        input{
+            border-radius: 8px;
+        }
+        button{
+            margin-left: 450px;
+            font-family: monospace;
+            font-weight: 400;
+            font-size: 25px;
+            align-content: center;
+            background-color: brown;
+            color:aliceblue;
+            border-radius: 5px;
+            cursor:pointer;
+        }
+        button:active{
+            background-color: rgb(224, 57, 57);
+            color:rgb(42, 43, 44);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Formulario - Basico <br> Function | Array | objetos   </h1>
+       
+    </header>
+    <hr>
+    <form  action="" method="get" class="myform">
+        <p>Nome:<input type="text" class="nome" placeholder="digite seu nome.." > </p>
+        <p>sobrenome:<input type="text" class="sobrenome" placeholder="Sobrenome..." ></p>
+        <p>Peso:<input type="text" class="peso" placeholder="Seu peso atual.." ></p>
+        <p>Altura:<input type="text" class="altura" placeholder="Altura atual"></p>
+       <label >
+           <button> Enviar </button>
+        </label>
+
+        <div class="resultado"></div>
+    </form>
+    <script src="../exerc_arr_obj_func.js"></script>
+</body>
+</html>
