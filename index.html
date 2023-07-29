@@ -1,0 +1,50 @@
+<h2 style="font-size:18px;"> Metodo Every </h2>
+
+<div style="font-size:18px;">
+
+  <p>
+    Every retorna um booleano,every e pertinente para validar
+    se todo os elementos de um array respeitam uma condição dada 
+    para exemplificar vamos novamente utilizar 
+  </p>
+
+  <li> for classico </li>
+
+
+        let alunos = [
+        {nome:"aluno_1", idade:18},
+        {nome:"aluno_2", idade:15},
+        {nome:"aluno_3", idade:20},
+        {nome:"aluno_4", idade:25},
+        ];
+
+        let todosAlunosMaiores = true;
+        for(let i = 0;i < alunos.length,i++){
+          if(alunos[i].idade < 18){
+            todosAlunosMaiores = false
+            break; 
+          }
+        }
+
+        saida // true caso todo alunos forem maiores de idade 
+                  se não ele retornará falso
+                  
+                  
+<li> utilizando Every
+ 
+         let alunos = [
+         {nome:"aluno_1", idade:18},
+         {nome:"aluno_2", idade:15},
+         {nome:"aluno_3", idade:20},
+         {nome:"aluno_4", idade:25},
+         ];
+
+         let alunosMaiores = alunos.every((aluno) => {
+          return aluno.idade > 18;
+         })
+
+<p>
+  ele vai iterar cada um dos elemento sob condicao de 
+  aluno.idade > 18 e usar op logico:
+</p>
+</div>
