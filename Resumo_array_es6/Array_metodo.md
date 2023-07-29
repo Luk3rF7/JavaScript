@@ -18,11 +18,12 @@ e retornando </p>
               // john,Doe,maria
     
 <hr>        
-<br>
+
 <li  style="font-size:18px">
   neste exemplo mostramos como ele funciona :
 </li>
 
+<br>
 <img src="./img/forEachLoop.png" alt="loopForeach">
 <hr>
 <br>
