@@ -98,4 +98,48 @@ para contorna este caso,precisariamos de usar criterio de busca mais especifico
   ele vai iterar cada um dos elemento sob condicao de 
   aluno.idade > 18 e usar op logico:
 </p>
+
+<h2 align="center"> Metodo Some </h2>
+
+<div style="font-size:18px;">
+
+  <p>
+    se a tarefa e validar se,pelo menos um dos elemento
+    satisfaz um dada condição ,o some e o metodo perfeito
+     para o trabalho,imagine que trabalhamos no setor de tecnologia de
+      um aeroporto e precisamo desenvolver um pequeno programa 
+      para saber se alguma das mala de um passageiro esta acima do limite
+      maximo estabelecido de 30kg
+  </p>
+
+  <li style="font-size:18px;"> for classico </li>
+
+
+        let pesoDasMalas = [12,32,21,29];
+
+        let temMalaAcimaDoPeso = false;
+          for(let i = 0;i < pesoDasMalas.length;i++){
+            if(pesoDasMala > 30){
+              temMalaAcimaDoPeso = true;
+            }
+          }
+        saida // true caso todo alunos forem maiores de idade 
+                  se não ele retornará falso
+                  
+                  
+<li style="font-size:18px;"> utilizando Every
+
+        let pesoDasMalas = [12,32,21,29];
+        
+
+         let temMalaAcimaDoPeso = pesoDasMalas.some((peso) => {
+          return pesoDaMala > 30;
+         })
+
+<p>
+  para cada peso da mala contida no peso das malas e verificado se ele 
+  e superior a 30kg ,na primeira ocorrencia de caso positivo
+  para condição,a execução do loop e interrompida e o metodo
+</p>
+</div>
 </div>
