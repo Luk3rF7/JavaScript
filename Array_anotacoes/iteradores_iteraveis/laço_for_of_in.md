@@ -1,3 +1,5 @@
+<h1 align="center"> Array laços </h1>
+
 <h2> Iteradores com laço for of </h2>
 
 <p style="font-size:18px;">
@@ -17,16 +19,16 @@ sintaxe	é:
         for(variabel of iteracao){
           // corpo
           }
-
-<p>
+<hr>
+<p style="font-size:18px;">
   A	 	variavel		 representa	 uma	 variável	 de	 auxílio	 que	 assume
 valores	diferentes	a	cada	iteração,	e	o		iteravel		é	o	objeto	que	será
 iterado.	 O	 caso	 de	 uso	 mais	 recorrente	 deste	 tipo	 de	 laço	 é	 para
 passar	por	 todos	os	valores	contidos	em	um		Array	,		Set		 ou	 um
 	Map	. Para	 contextualizar	 seu	 uso,	 imagine	 que	 temos
   uma	sequência	de	números	inteiros	de	1	a	5	em	uma	coleção:
-</p>
-        
+       
+
         /* 
           para iterar esta lista num com 
           laço for of e preciso duas coisa de acordo 
@@ -51,7 +53,6 @@ passar	por	 todos	os	valores	contidos	em	um		Array	,		Set		 ou	 um
             ele vai dar esse error:
             TypeError:	perfilDoFacebook[Symbol.iterator]	is	not	a	function
           }
-
           por isso utilizamo for in
           for(let propriedade in person){
             let info = person[propriedade] 
@@ -60,8 +61,9 @@ passar	por	 todos	os	valores	contidos	em	um		Array	,		Set		 ou	 um
           retornara:
           john
           28
+</p>
           
-<li style="font-size:18px;"> utilizando break and continue
+<h2 align="center"> utilizando break and continue </h2>
 
   <p style="font-size:18px;">
     Assim	como	em	outros	laços	de	repetição,	as	palavras	reservadas
@@ -80,12 +82,12 @@ passar	por	 todos	os	valores	contidos	em	um		Array	,		Set		 ou	 um
               		console.log(numero);
               }
               //	1	2	3
-<p style="font-size:18px;">
+<li style="font-size:18px;">
   Já	 o	 	continue		 usamos	 para	 indicar	 que	 o	 laço	 deve	 ser
   continuado,	 passando	 imediatamente	 para	 o	 próximo	 item.	 Ele	 é
   útil,	 por	 exemplo,	 para	 colocar	 uma	 condição	 no	 laço	 para	 nunca
   imprimir	no	console	o	número	dois.
-</p>
+</li>
 
                 var	numeros	=	[1,2,3,4,5];
                 for(var	numero	of	numeros)	{
@@ -94,3 +96,5 @@ passar	por	 todos	os	valores	contidos	em	um		Array	,		Set		 ou	 um
                 		}
                 		console.log(numero);
                 }
+
+<hr>
