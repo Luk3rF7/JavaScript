@@ -28,7 +28,7 @@ queremos exibir valor de uma variavel 10vezes
 
 </p>
 <h3>Do while :</h3>
-<<p> começa contado fora do escopo passamos do{ codigo + incrementação } e condição 
+<p> começa contado fora do escopo passamos do{ codigo + incrementação } e condição 
 
               let w = 0
 
