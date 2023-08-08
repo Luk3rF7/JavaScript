@@ -1,5 +1,4 @@
-<h1 align="center">Resumo JavaScript </h1>
-
+<h1 align="center"> Resumo Fundamentos JavaScript </h1>
 <h2> Estrutura de Repetição :</h2>
 <p>
   são estrutura que se repeti 1,2,3,4,5,6 e quando queremos executar algo repetitivo

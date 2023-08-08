@@ -1,5 +1,4 @@
-<h1 align="center">Resumo javascript </h1>
-
+<h1 align="center"> Resumo Fundamentos JavaScript </h1>
 <h2>Conversão de tipos:</h2>
 <p>No javascript temos varios metodo e forma de converter dados exemplo:</p>
 

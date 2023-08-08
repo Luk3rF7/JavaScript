@@ -1,5 +1,4 @@
-<h1 align="center">Resumo JavaScript </h1>
-
+<h1 align="center"> Resumo Fundamentos JavaScript </h1>
 <h2>Funções </h2>
 <p>
 As funções assim como as variaveis são feitas para salvar,trechos de codigos e reutilizar varias vezes </p>

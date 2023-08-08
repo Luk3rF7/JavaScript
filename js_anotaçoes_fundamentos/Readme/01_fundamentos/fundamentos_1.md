@@ -1,4 +1,4 @@
-<h1 align="center">Resumo JavaScript </h1>
+<h1 align="center"> Resumo Fundamentos JavaScript </h1>
 
 <h2>Variaveis</h2>
 <p>as variavel podem guardar dados exemplo :</p>

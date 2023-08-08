@@ -1,4 +1,6 @@
 {
   "prettier.bracketSameLine": true,
-  "prettier.singleQuote": true
+  "prettier.singleQuote": true,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single"
 }

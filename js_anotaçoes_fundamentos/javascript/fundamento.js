@@ -94,3 +94,10 @@ function testHoisting() {
 
 const testeArrow = () => { console.log('Arrow function !!') }
 testeArrow();
+
+// data e horas 
+const agora = Date()
+console.log(agora)
+
+const natal = new Date(2023, 11, 25)
+console.log(`A data de natal é ${natal}`) 
