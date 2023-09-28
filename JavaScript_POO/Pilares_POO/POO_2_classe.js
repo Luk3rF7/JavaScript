@@ -32,7 +32,7 @@ class Caixa {
   }
 
   retirarSaldo(retirar) {
-    return this.saldo -= '-', retirar
+    return
   }
 
 }
