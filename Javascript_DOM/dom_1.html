@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>  <span id="primeiro"></span>
+  <p id="trecho1"></p>
+  <p id="trecho2"></p>
+  
+      <span id="segundo"></span>
+      <span id="terceiro"></span>
+
+      <div id="primeiro-node">elemento </div>
+      <h4 id="segundo-node"></h4>
+      <h4 id="terceiro-node"></h4>
+
+    <p class="noticia"></p>
+    <div class="noticia"></div>
+
+    <script>
+       // utilizando id para pega o ID:
+       document.getElementById('trecho1').innerHTML = "Estamos buscando elemento por Id,podendo mudar dinamicamente";
+       document.querySelector('#trecho2').innerHTML = "Buscando elemento com querySelector"
+        // pegando por Tags
+        const span  = document.getElementsByTagName("span");
+        console.log(span); 
+        //pegando por tags querySelector
+        const h4 = document.querySelector('h4')
+
+        // ele me traz coleçao de html
+      //busca por className 
+      const classe = document.getElementsByClassName('noticia')
+      const classe_node = document.getElementsByClassName('primeiro-node')
+      console.log(classe)
+      console.log('elemento node?',classe_node)
+    </script>
+</body>
+</html>
