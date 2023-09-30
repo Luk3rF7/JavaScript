@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <div id="noticia">
+      <p id="frase"></p>
+      <span id="texto1"></span>
+      <span class="msg" id="msg"></span>
+    </div>
+      <div>
+        <span id="texto2"></span>
+        <input id="cadastrar">
+      </div>
+
+      <p id="form"></p>
+      <button id="cor" onclick="TrocarCor()">Mude cor</button>
+      <button id="texto" onmouseover="TrocaCorTexto()" onmouseout="VoltaCorTexto()">Mude cor</button>
+    <script>
+      const noticia = document.querySelector('body div#noticia');
+      const frase = document.querySelector('body div#noticia p#frase');
+      //
+      console.log('Elemento Div identificado: ' + noticia)
+      console.log('Elemento P identificado: ' + frase)
+      frase.innerHTML = "A Frase foi identificada";
+        const spans = document.querySelectorAll('span')
+        console.log(spans);
+        const span = document.querySelector('span[id=texto2]')
+        console.log(span)
+
+        // 
+        document.getElementById('cadastrar').value = "Enviar algo"
+
+        //trocar cor
+        function TrocarCor() {
+          document.getElementById("cor").style.color = "red"
+        }
+        // cor com hover
+        function TrocaCorTexto(){
+          document.getElementById("texto").style.color = "green"
+        }
+        function VoltaCorTexto(){
+          document.getElementById("texto").style.color = "blue"
+        }
+    </script>
+</body>
+</html>

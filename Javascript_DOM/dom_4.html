@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button id="criar" onclick="CriarLink()">Criar</button>
+  <button id="criar" onclick="RemoveLink()">Remover</button>
+
+  <div id="propaganda"></div>
+  <script>
+    function CriarLink(){
+      // criando elemento
+      let link = document.createElement('a');
+
+      //criando atributto do elemento:
+      link.setAttribute('href','https://www.google.com.br');
+      link.setAttribute('title','Site Google');
+      link.setAttribute('target','_blank');
+
+      // criando texto do elemento a
+      let txtLink = document.createTextNode('Acessar site google');
+       
+      // adicionando text no elemento:
+      link.appendChild(txtLink);
+
+      // adicionar elemento no outro elemento Div:
+      let divElement = document.querySelector('#propaganda');
+
+      divElement.appendChild(link)
+    }
+
+    function RemoveLink (){
+       //remover link
+
+       let elemento = document.querySelector('a');
+       elemento.remove(elemento)
+    }
+  </script>  
+</body>
+</html>
