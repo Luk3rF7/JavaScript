@@ -10,9 +10,9 @@ function modificando(arr, pos, index, item) {
   return arr[pos][index] = item;
 }
 
-testando(arr, 0, 'um')
-testando(arr, 1, 2)
-testando(arr, 2, 3)
-testando(arr, 4, 'testando')
-testando(arr, 3, true)
+adicionandoArr(arr, 0, 'um')
+adicionandoArr(arr, 1, 2)
+adicionandoArr(arr, 2, 3)
+adicionandoArr(arr, 4, 'adicionandoArr')
+adicionandoArr(arr, 3, true)
 modificando(arr, 0, 0, 'Dois')

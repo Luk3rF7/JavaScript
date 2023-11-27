@@ -4,26 +4,27 @@ for (let letra of "Cod3r") {
 
 const assuntosEcma = ['Map', 'Set', 'Promise']
 
-for (let i in assuntosEcma) {
-    console.log(i)
+for (let index in assuntosEcma) {
+    console.log('forIn', index)
 }
 
 for (let assunto of assuntosEcma) {
-    console.log(assunto)
+    console.log('forOf', assunto)
 }
 
 const assuntosMap = new Map([
     ['Map', { abordado: true }],
     ['Set', { abordado: true }],
-    ['Promise', { abordado: false }]
+    ['Promise', { abordado: false }],
+    ['Promise', { abordado: true }],
 ])
 
 for (let assunto of assuntosMap) {
-    console.log(assunto)
+    console.log("new Map", assunto)
 }
 
 for (let chave of assuntosMap.keys()) {
-    console.log(chave)
+    console.log("map .keys", chave)
 }
 
 for (let valor of assuntosMap.values()) {
