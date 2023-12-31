@@ -2,6 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const { Observable } = require('rxjs')
 
+// Observer responsavel pelo evento:
 function lerDiretorio(caminho) {
     return new Observable(subscriber => {
         try {
@@ -15,6 +16,7 @@ function lerDiretorio(caminho) {
     })
 }
 
+// subscriber responsavel por movimentar para observe
 function lerArquivo() {
     return createPipeableOperator(subscriber => ({
         next(caminho) {
